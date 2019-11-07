@@ -1,0 +1,16 @@
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Troud Online.exe.config
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Troud Online.exe
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Troud Online.pdb
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Google.Protobuf.dll
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\MySql.Data.dll
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Renci.SshNet.dll
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Google.Protobuf.pdb
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Google.Protobuf.xml
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\MySql.Data.xml
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\bin\Debug\Renci.SshNet.xml
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\obj\Debug\Troud Online.csprojAssemblyReference.cache
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\obj\Debug\Troud Online.csproj.CoreCompileInputs.cache
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\obj\Debug\Troud Online.csproj.CopyComplete
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\obj\Debug\Troud Online.exe
+C:\Users\Grego\Desktop\Coora\Troud Online\Troud Online\obj\Debug\Troud Online.pdb

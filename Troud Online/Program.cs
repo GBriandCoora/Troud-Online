@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace Troud_Online
 {
@@ -10,6 +10,26 @@ namespace Troud_Online
     {
         static void Main(string[] args)
         {
+            Console.WindowHeight = 30;
+            Console.WindowWidth = 120;
+
+            //Connection();
+
+            Globals.display.ShowTitle();
+            Thread.Sleep(3000);
+            Console.Clear();
+
+            //Globals.display.Connection();
+            //Globals.db.AddPlayerToGame();
+
+
+            Console.ReadLine();
+        }
+
+        private static void Connection()
+        {
+            new Thread(Globals.db.Start).Start();
+            while(Globals.connected != true) { }
         }
     }
 }
