@@ -8,18 +8,6 @@ namespace Troud_Online
 {
     public class Display
     {
-        public void CleanChat()
-        {
-            for(int i = 0; i < 120; ++i)
-            {
-                Console.SetCursorPosition(90, i);
-                for(int j = 0; j < 30; ++j)
-                {
-                    Console.Write(" ");
-                }
-            }
-        }
-
         public void ShowTitle()
         {
             string[] titleTroud = new string[] {".----------------.  .----------------.  .----------------.  .----------------.  .----------------.",
@@ -58,19 +46,47 @@ namespace Troud_Online
             bool connected = false;
             while (!connected)
             {
-                Console.SetCursorPosition(0, 29);
+                Console.SetCursorPosition(0, 28);
                 Console.WriteLine("Entrez votre nom");
-                string name = Console.ReadLine();
                 Console.SetCursorPosition(0, 29);
+                string name = Console.ReadLine();
+                ClearCmd();
+                Console.SetCursorPosition(0, 28);
                 Console.WriteLine("Entrez votre mot de passe");
+                Console.SetCursorPosition(0, 29);
                 string password = Console.ReadLine();
+                ClearCmd();
                 connected = Globals.db.CheckPlayer(name, password);
                 if (!connected)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.SetCursorPosition(0, 28);
+                    Console.SetCursorPosition(0, 27);
                     Console.Write("Vos identifiants sont inexacts");
                     Console.ForegroundColor = ConsoleColor.White;
+                }
+            }
+        }
+
+        public void ClearChat()
+        {
+            for (int i = 0; i < 30; ++i)
+            {
+                Console.SetCursorPosition(90, i);
+                for (int j = 0; j < 30; ++j)
+                {
+                    Console.Write(" ");
+                }
+            }
+        }
+
+        public void ClearCmd()
+        {
+            for(int i = 27; i < 30; ++i)
+            {
+                Console.SetCursorPosition(0, i);
+                for(int j = 0; j < 90; ++j)
+                {
+                    Console.Write(" ");
                 }
             }
         }

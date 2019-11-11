@@ -13,17 +13,18 @@ namespace Troud_Online
             Console.WindowHeight = 30;
             Console.WindowWidth = 120;
 
-            //Connection();
+            Connection();
 
             Globals.display.ShowTitle();
             Thread.Sleep(3000);
             Console.Clear();
 
-            //Globals.display.Connection();
-            //Globals.db.AddPlayerToGame();
+            Globals.display.Connection();
+            Globals.db.AddPlayerToGame();
 
 
             Console.ReadLine();
+            Globals.connected = false;
         }
 
         private static void Connection()
